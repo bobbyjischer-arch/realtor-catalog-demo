@@ -21,9 +21,10 @@
   MR.CONFIG_KEY = "rc_config_v1";
   MR.FAV_KEY = "rc_favorites_v1";
 
-  // Демо-фотографии (Unsplash). В рабочей версии заменяются на фото объектов.
+  // Демо-фотографии вшиты в репозиторий (assets/img), чтобы грузиться из России
+  // без обращения к зарубежному CDN. В рабочей версии заменяются на фото объектов.
   function img(id) {
-    return "https://images.unsplash.com/photo-" + id + "?auto=format&fit=crop&w=1400&q=80";
+    return "assets/img/" + id + ".jpg";
   }
   MR.img = img;
 

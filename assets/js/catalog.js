@@ -63,7 +63,7 @@
           '<p class="hero-note">Каталог обновляется вручную и всегда актуален. Отметьте понравившиеся объекты сердечком.</p>' +
         '</div>' +
         '<div class="hero-media">' +
-          '<img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80" alt="Побережье Чёрного моря — Геленджик и окрестности" loading="eager" />' +
+          '<img src="assets/img/1507525428034-b723cf961d3e.jpg" alt="Побережье Чёрного моря — Геленджик и окрестности" loading="eager" />' +
         '</div>' +
       '</div></section>' +
       '<section class="trust"><div class="wrap"><div class="trust-strip" id="trustStrip"></div></div></section>' +
