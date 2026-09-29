@@ -523,6 +523,9 @@ h1, h2, h3 { font-family: var(--font-head); font-weight: 600; color: var(--ink);
 }
 @media (max-width: 560px) {
   .trust-strip { flex-direction: column; }
-  .trust-item { border-left: none; border-top: 1px solid var(--line); padding: 16px 0; }
-  .trust-item:first-child { border-top: none; }
+  /* сбрасываем горизонтальный flex-basis 180px — в колонке он раздувал высоту строки */
+  .trust-item { flex: 0 0 auto; display: flex; align-items: baseline; gap: 12px; border-left: none; border-top: 1px solid var(--line); padding: 13px 0; }
+  .trust-item:first-child { border-top: none; padding-top: 0; }
+  .trust-val { font-size: 22px; }
+  .trust-lbl { margin-top: 0; }
 }
